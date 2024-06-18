@@ -57,7 +57,7 @@ class Course {
 
     addStudent(student: Student): void {
         
-            student.registerForCourses(this);
+            this.students.push(student);
        
     }
 
